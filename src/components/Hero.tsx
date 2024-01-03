@@ -21,7 +21,10 @@ export default function Hero() {
 	const grass_back_1 = useTransform(springyScrollProg, [0, 1], ["0%", "10%"]);
 
 	return (
-		<section ref={contentWrapperRef} className="min-h-screen w-full relative">
+		<section
+			ref={contentWrapperRef}
+			className="min-h-screen w-screen overflow-x-hidden overflow-y-hidden relative"
+		>
 			<motion.div
 				style={{ y: sky }}
 				className="absolute h-full w-full bg-gradient-to-t from-[#E3E165] via-[#CCD2AD] to-[#CCD2AD]"
@@ -98,7 +101,7 @@ export default function Hero() {
 				<div className="md:h-[300px] md:w-[300px] h-[200px] w-[200px]">
 					<Image src={"/img/logo.png"} height={300} width={300} alt="RowdyHacks 2024 Logo"></Image>
 				</div>
-				<div className="relative md:scale-100 scale-75">
+				<div className="relative md:scale-100 scale-50 md:my-0 -my-10">
 					<div className="font-oswald absolute translate-y-1 -translate-x-2">
 						<h2 className="font-bold m-0 text-3xl leading-[0.95] text-[#A88567] pl-2 italic lg:text-left text-center">
 							A LAND BEFORE

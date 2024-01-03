@@ -44,7 +44,7 @@ export default function Volcano() {
 		// 	.seek(500);
 	});
 	return (
-		<div className="absolute w-[500px] top-[50%] -translate-y-[48%] left-[10%]">
+		<div className="absolute w-[500px] top-[50%] md:-translate-y-[48%] -translate-y-[53%] left-[10%] ">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				xmlSpace="preserve"

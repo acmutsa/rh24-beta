@@ -59,13 +59,6 @@ export default function Volcano() {
 						".st1{fill:#fff}.st2{fill:#ffe09d}.st4{fill:#b3aef5}.st5{fill:#946eb5}.st6{fill:#bf7ab3}.st7{fill:#353273}.st13{fill:#9f99ff}.st14{fill:#4a4db5}.st15{fill:#2e347f}.st16{fill:#7164be}"
 					}
 				</style>
-				<path
-					id="bg"
-					d="M0 0h1280v1026.3H0z"
-					style={{
-						fill: "url(#bg_1_)",
-					}}
-				/>
 				<g id="volcano">
 					<g id="backdrop">
 						<linearGradient

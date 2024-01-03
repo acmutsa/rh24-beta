@@ -17,8 +17,8 @@ Want to help make RowdyHacks the best Hackathon around? Please reach out to us a
 
 ## RH 2024 Website Contributors
 
-<a href="https://github.com/UTSA-ACM/rh-website-23/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=UTSA-ACM/rh-website-23" />
+<a href="https://github.com/acmutsa/rowdyhacks24/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=acmutsa/rowdyhacks24" />
 </a>
   
-[📣❤️ Other Contributions ❤️📣](https://github.com/UTSA-ACM/RowdyHacks24/blob/develop/contributions.md)
+[📣❤️ Other Contributions ❤️📣](https://github.com/UTSA-ACM/RowdyHacks23/blob/develop/contributions.md)

@@ -73,7 +73,7 @@ export default function Hero() {
 				<Image
 					src="/img/landing/layers/wall_left.svg"
 					alt=""
-					className="object-cover object-left-bottom"
+					className="object-cover object-left-bottom hidden lg:block"
 					fill
 				/>
 			</div>
@@ -81,7 +81,7 @@ export default function Hero() {
 				<Image
 					src="/img/landing/layers/wall_right.svg"
 					alt=""
-					className="object-cover object-right-bottom"
+					className="object-cover object-right-bottom hidden lg:block"
 					fill
 				/>
 			</div>
@@ -94,24 +94,26 @@ export default function Hero() {
 					fill
 				/>
 			</div>
-			<div className="flex items-center justify-center absolute w-screen top-[30%] pr-24">
-				<div>
+			<div className="flex lg:flex-row flex-col items-center justify-center absolute w-screen lg:top-[30%] top-[10%] lg:pr-24">
+				<div className="md:h-[300px] md:w-[300px] h-[200px] w-[200px]">
 					<Image src={"/img/logo.png"} height={300} width={300} alt="RowdyHacks 2024 Logo"></Image>
 				</div>
-				<div className="relative">
+				<div className="relative md:scale-100 scale-75">
 					<div className="font-oswald absolute translate-y-1 -translate-x-2">
-						<h2 className="font-bold m-0 text-3xl leading-[0.95] text-[#A88567] pl-2 italic">
+						<h2 className="font-bold m-0 text-3xl leading-[0.95] text-[#A88567] pl-2 italic lg:text-left text-center">
 							A LAND BEFORE
 						</h2>
-						<h1 className="font-bold text-9xl m-0 leading-[0.95] select-none text-[#A88567]">
+						<h1 className="font-bold text-9xl m-0 leading-[0.95] select-none text-[#A88567] lg:text-left text-center">
 							RowdyHacks
 						</h1>
 					</div>
 					<div className="font-oswald relative">
-						<h2 className="font-bold m-0 text-3xl leading-[0.95] text-[#FEF2E6] pl-2 opacity-0">
+						<h2 className="font-bold m-0 text-3xl leading-[0.95] text-[#FEF2E6] pl-2 opacity-0  lg:text-left text-center">
 							A LAND BEFORE
 						</h2>
-						<h1 className="font-bold text-9xl m-0 leading-[0.95] text-[#FEF2E6]">RowdyHacks</h1>
+						<h1 className="font-bold text-9xl m-0 leading-[0.95] text-[#FEF2E6]  lg:text-left text-center">
+							RowdyHacks
+						</h1>
 					</div>
 				</div>
 			</div>

@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	);
 }
 
-export const meta: Metadata = {
+export const metadata: Metadata = {
 	title: "RowdyHacks IX",
 	description:
 		"A Land Before RowdyHacks. Feb 24th-25th. RowdyHacks is a free, weekend-long, overnight hackathon hosted at UTSA!",

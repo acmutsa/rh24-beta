@@ -21,4 +21,4 @@ Want to help make RowdyHacks the best Hackathon around? Please reach out to us a
 <img src="https://contrib.rocks/image?repo=UTSA-ACM/rh-website-23" />
 </a>
   
-[📣❤️ Other Contributions ❤️📣](https://github.com/UTSA-ACM/RowdyHacks23/blob/develop/contributions.md)
+[📣❤️ Other Contributions ❤️📣](https://github.com/UTSA-ACM/RowdyHacks24/blob/develop/contributions.md)
